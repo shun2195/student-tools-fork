@@ -35,5 +35,5 @@ def divide(a: Real, b: Real) -> float:
     _validate_number(a, "a")
     _validate_number(b, "b")
     if b == 0:
-        raise ValueError("Cannot divide by zero")
+        raise ValueError("Cannot divide by 0")
     return a / b
